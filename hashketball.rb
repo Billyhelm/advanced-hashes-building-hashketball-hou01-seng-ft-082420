@@ -3,8 +3,7 @@ def game_hash
     :team_name => "Brooklyn Nets",
     :colors => ["Black", "White"], 
     :players => [
-      :alan_anderson =>{
-        :player_name => "Alan Anderson",
+      {"Alan Anderson" =>{
         :number => 0,
         :shoe => 16,
         :points => 22,
@@ -13,8 +12,8 @@ def game_hash
         :steals => 3,
         :blocks => 1,
         :slam_dunks => 1
-        },
-      :reggie_evans => { 
+        }},
+      {:reggie_evans => { 
         :player_name => "Reggie Evans",
         :number => 30,
         :shoe => 14,
@@ -24,8 +23,8 @@ def game_hash
         :steals => 12,
         :blocks => 12,
         :slam_dunks => 7
-        },        
-      :brook_lopez => {
+        }},        
+      {:brook_lopez => {
         :player_name => "Brook Lopez",
         :number => 11,
         :shoe => 17,
@@ -35,8 +34,8 @@ def game_hash
         :steals => 3,
         :blocks => 1,
         :slam_dunks => 15
-        },
-      :mason_plumlee => {
+        }},
+      {:mason_plumlee => {
         :player_name => "Mason Plumlee",
         :number => 1,
         :shoe => 19,
@@ -46,8 +45,8 @@ def game_hash
         :steals => 3,
         :blocks => 8,
         :slam_dunks => 5
-        },        
-      :jason_terry => {
+        }},        
+      {:jason_terry => {
         :player_name => "Jason Terry",
         :number => 31,
         :shoe => 15,
@@ -57,7 +56,7 @@ def game_hash
         :steals => 4,
         :blocks => 11,
         :slam_dunks => 1
-        },        
+        }},        
       ]},
   :away => {
     :team_name => "Charlotte Hornets",
@@ -114,4 +113,5 @@ def game_hash
         :slam_dunks => 12
         }},        
       ]}}
+game_hash       
 end 
