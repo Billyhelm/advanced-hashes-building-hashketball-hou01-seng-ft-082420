@@ -6,7 +6,7 @@ def game_hash
     :players => [
       {:alan_anderson =>{
         :player_name => "Alan Anderson",
-        bidning.pry
+        binding.pry
         :number => 0,
         :shoe => 16,
         :points => 22,
