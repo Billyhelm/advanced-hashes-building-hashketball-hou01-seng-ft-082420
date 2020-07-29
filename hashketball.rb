@@ -1,3 +1,4 @@
+require 'pry'
 def game_hash
   game_hash = {:home =>{
     :team_name => "Brooklyn Nets",
@@ -5,6 +6,7 @@ def game_hash
     :players => [
       {:alan_anderson =>{
         :player_name => "Alan Anderson",
+        bidning.pry
         :number => 0,
         :shoe => 16,
         :points => 22,
@@ -116,3 +118,5 @@ def game_hash
       ]}}
 game_hash       
 end 
+
+game_hash
