@@ -63,7 +63,8 @@ def game_hash
     :team_name => "Charlotte Hornets",
     :colors => ["Torquoise", "Purple"], 
     :players => [
-      {:jeff_adrien =>{
+      {
+        :player_name => "Jeff Adrien"
         :number => 4,
         :shoe => 18,
         :points => 10,
@@ -72,8 +73,9 @@ def game_hash
         :steals => 2,
         :blocks => 7,
         :slam_dunks => 2
-        }},
-      {:bismack_biyombo => { 
+        },
+      { 
+        :player_name => "Bismack Biyombo"
         :number => 0,
         :shoe => 16,
         :points => 12,
@@ -82,8 +84,9 @@ def game_hash
         :steals => 22,
         :blocks => 15,
         :slam_dunks => 10
-        }},        
-      {:desagna_diop => {
+        },        
+      {
+        :player_name => "Desagna Diop"
         :number => 2,
         :shoe => 14,
         :points => 24,
@@ -92,8 +95,9 @@ def game_hash
         :steals => 4,
         :blocks => 5,
         :slam_dunks => 5
-        }},
-      {:ben_gordon => {
+        },
+      {
+        :player_name => "Ben Gordon"
         :number => 8,
         :shoe => 15,
         :points => 33,
@@ -102,8 +106,9 @@ def game_hash
         :steals => 1,
         :blocks => 1,
         :slam_dunks => 0
-        }},        
-      {:kemba_walker => {
+        },        
+      {
+        :player_name => "Kemba Walker"
         :number => 33,
         :shoe => 15,
         :points => 6,
@@ -112,7 +117,7 @@ def game_hash
         :steals => 7,
         :blocks => 5,
         :slam_dunks => 12
-        }},        
+        },        
       ]}}
       #binding.pry
 game_hash       
